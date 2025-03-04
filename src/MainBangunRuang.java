@@ -42,5 +42,16 @@ public class MainBangunRuang {
         LimasPersegi pyramid2 = new LimasPersegi(4, 6);
         pyramid2.ComputeAndSetVolume();
         System.out.println("Volume Limas Persegi 2 (constructor) adalah:"+ pyramid2.ComputeAndSetVolume());
+        
+        System.out.println("========================== TABUNG ============================");
+        Tabung tube1 = new Tabung();
+        tube1.setRadius(4);
+        tube1.setTinggi(6);
+        tube1.ComputeAndSetVolume();
+        System.out.println("Volume Tabung 1 adalah:"+ tube1.ComputeAndSetVolume());
+        System.out.println("-------------------------------------------------------------");
+        Tabung tube2 = new Tabung(4, 6);
+        tube2.ComputeAndSetVolume();
+        System.out.println("Volume Tabung 2 (constructor) adalah:"+ tube2.ComputeAndSetVolume());
     }
 }
