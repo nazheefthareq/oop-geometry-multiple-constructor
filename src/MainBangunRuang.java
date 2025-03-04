@@ -21,5 +21,15 @@ public class MainBangunRuang {
         Balok block2 = new Balok(4,2.5,3);
         block2.ComputeAndSetVolume();
         System.out.println("Volume balok 2 (constructor) adalah:"+ block2.ComputeAndSetVolume());
+
+        System.out.println("========================== BOLA ============================");
+        Bola ball1 = new Bola();
+        ball1.setRadius(3);
+        ball1.ComputeAndSetVolume();
+        System.out.println("Volume bola 1 adalah:"+ ball1.ComputeAndSetVolume());
+        System.out.println("-------------------------------------------------------------");
+        Bola ball2 = new Bola(3);
+        ball2.ComputeAndSetVolume();
+        System.out.println("Volume bola 2 (constructor) adalah:"+ ball2.ComputeAndSetVolume());
     }
 }
