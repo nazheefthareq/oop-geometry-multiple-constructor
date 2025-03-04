@@ -31,5 +31,16 @@ public class MainBangunRuang {
         Bola ball2 = new Bola(3);
         ball2.ComputeAndSetVolume();
         System.out.println("Volume bola 2 (constructor) adalah:"+ ball2.ComputeAndSetVolume());
+
+        System.out.println("========================== LIMAS PERSEGI ============================");
+        LimasPersegi pyramid1 = new LimasPersegi();
+        pyramid1.setSisi(4);
+        pyramid1.setTinggi(6);
+        pyramid1.ComputeAndSetVolume();
+        System.out.println("Volume Limas Persegi 1 adalah:"+ pyramid1.ComputeAndSetVolume());
+        System.out.println("-------------------------------------------------------------");
+        LimasPersegi pyramid2 = new LimasPersegi(4, 6);
+        pyramid2.ComputeAndSetVolume();
+        System.out.println("Volume Limas Persegi 2 (constructor) adalah:"+ pyramid2.ComputeAndSetVolume());
     }
 }

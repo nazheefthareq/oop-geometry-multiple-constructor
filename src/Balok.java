@@ -1,6 +1,6 @@
 public class Balok {
 
-    public double panjang, lebar, tinggi, volume;
+    public double panjang, lebar, tinggi;
 
     // using set
     public void setPanjang(double panjang) {

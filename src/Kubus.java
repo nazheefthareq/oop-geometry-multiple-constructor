@@ -1,6 +1,6 @@
 public class Kubus {
 
-    public double sisi, volume;
+    public double sisi;
 
     // using set value
     public void setSisi(double sisi) {
