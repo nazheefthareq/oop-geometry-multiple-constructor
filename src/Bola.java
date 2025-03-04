@@ -17,7 +17,7 @@ public class Bola {
     }
 
     public double ComputeAndSetVolume() {
-        double volume = 4/3 * 3.14 * this.rad * this.rad * this.rad;
+        double volume = 4.0/3 * 3.14 * this.rad * this.rad * this.rad;
         return volume;
     }
 }

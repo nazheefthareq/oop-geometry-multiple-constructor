@@ -21,7 +21,7 @@ public class LimasPersegi {
     }
 
     public double ComputeAndSetVolume() {
-        double volume = 1/3 * (this.sisi * this.sisi) * this.tinggi; 
+        double volume = 1.0/3 * (this.sisi * this.sisi) * this.tinggi; 
         return volume;
     }
 }
